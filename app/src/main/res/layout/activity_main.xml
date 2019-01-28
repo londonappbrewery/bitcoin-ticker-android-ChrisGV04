@@ -29,10 +29,11 @@
         android:contentDescription="@string/imageview_desc"
         android:src="@drawable/bitcoin_image"
         android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"/>
 
     <LinearLayout
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/priceLabel"
@@ -46,9 +47,8 @@
             android:textSize="30sp"
             android:textStyle="bold"
             android:id="@+id/textView"
-            android:layout_gravity="center_vertical"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"/>
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginBottom="20dp"/>
 
         <Spinner
             android:layout_width="wrap_content"
